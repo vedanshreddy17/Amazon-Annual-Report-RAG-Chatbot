@@ -1,0 +1,6 @@
+streamlit>=1.35,<2
+pypdf>=5,<7
+chromadb>=0.5,<2
+sentence-transformers>=3,<6
+langchain-text-splitters>=0.3,<2
+requests>=2.31,<3

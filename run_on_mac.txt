@@ -1,0 +1,12 @@
+ONE-TIME SETUP (Mac, 8 GB RAM)
+1. Install Python 3.11 or 3.12 and Ollama (https://ollama.com/download).
+2. Open Terminal in this folder.
+3. python3 -m venv .venv
+4. source .venv/bin/activate
+5. python -m pip install -r requirements.txt
+6. ollama pull llama3.2:1b
+7. Make sure the Ollama app is running (or run 'ollama serve' in another Terminal).
+8. streamlit run app.py
+
+The first question may take longer while the PDF is indexed and the embedding model downloads.
+PDF page citations are retrieval references, not proof that the model used every cited page.

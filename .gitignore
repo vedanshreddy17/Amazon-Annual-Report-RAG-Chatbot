@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local vector database
+.chroma/
+chroma_db/
+chroma/
+chroma_data/
+chroma_store/
+*.sqlite3
+
+# macOS files
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Editor settings
+.vscode/
