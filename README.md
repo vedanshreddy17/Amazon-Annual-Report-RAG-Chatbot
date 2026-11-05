@@ -33,6 +33,20 @@ A locally hosted AI chatbot that answers questions about Amazon's 2024 Annual Re
 
 ## Getting Started
 
+## Required Document
+
+This project uses Amazon's 2024 Annual Report as its document knowledge base.
+
+Download the report from Amazon's official investor relations website:
+
+https://ir.aboutamazon.com/annual-reports-proxies-and-shareholder-letters/default.aspx
+
+Save the PDF in the project's root directory with this exact filename:
+
+`Amazon-2024-Annual-Report.pdf`
+
+The application extracts text from the report, generates embeddings, and creates a local ChromaDB collection when processing the document for the first time.
+
 ### Prerequisites
 
 - Python 3.11
